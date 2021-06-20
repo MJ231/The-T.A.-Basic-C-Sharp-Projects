@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MathApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Math Application
+            int product = 11000000 * 50; // Multiplication application
+            Console.WriteLine(product);
+            Console.ReadLine();
+
+            int num1 = 7; // Addition application between two integers
+            int num2 = 25;
+            int total = num1 + num2;
+            Console.WriteLine(total);
+            Console.ReadLine();
+
+            double quotient = 200.0 / 12.5; // Division application
+            Console.WriteLine(quotient);
+            Console.ReadLine();
+
+            bool trueOrFalse = 51 > 50; // Greater than application with true or false answers 
+            Console.Write(trueOrFalse.ToString());
+            Console.ReadLine();
+
+            int remainder = 33 % 7; // Remainder application 
+            Console.WriteLine(remainder);
+            Console.ReadLine();
+
+        }
+    }
+}
