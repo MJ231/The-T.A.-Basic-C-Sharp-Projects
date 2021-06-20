@@ -41,3 +41,29 @@ namespace DailyReportStudents
         }
     }
 }
+// The Solution From The Program
+The Tech Academy
+Student Daily Report
+What is your name?
+Jordan
+Your name is: Jordan
+What course are you on?
+C#
+The course is: C#
+What page number?
+163
+The page number is: 163
+Do you need help with anything? Please answer True or False.
+False
+The answer is: False
+Were there any positive experiences you'd like to share? Please give specifics.
+Making this assignment is cool!
+Specifics are: Making this assignment is cool!
+Is there any feedback you'd like to provide? Please be specific.
+Not at this time.
+Specifics are: Not at this time.
+How many hours did you study today?
+7
+The hours studied were: 7
+Thank you for your answers. An instructor will respond to this shortly. Have a great day!
+// End Of Program
