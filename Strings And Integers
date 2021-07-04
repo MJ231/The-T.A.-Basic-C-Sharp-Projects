@@ -1,0 +1,46 @@
+using System;
+
+namespace StringsAndIntegersAssignment
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try //Testing code for errors
+            {
+                //Creating a string to try in a console application
+                Console.WriteLine("Choose a number.");
+                int numberOne = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Choose another number.");
+                int numberTwo = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Dividing the two...");
+                int numberThree = numberOne / numberTwo;
+                Console.WriteLine(numberOne + " divided by " + numberTwo + " equals " + numberThree);
+                Console.ReadLine();
+            }
+
+            catch (FormatException ex) //Define a block of code to be executed, if error occurs 
+            {
+                Console.WriteLine("Please type a whole number.");
+
+            }
+            catch (DivideByZeroException ex) //Define a block of code to be executed, if error occurs 
+            {
+                Console.WriteLine("Cannot divide by zero. Please try again.");
+            }
+            catch (Exception ex) //Define a block of code to be executed, if error occurs 
+            {
+                Console.WriteLine("Error occured! Try again.");
+            }
+            
+            Console.ReadLine(); //Able to read the console application 
+        }
+    }
+}
+
+Choose a number.
+4
+Choose another number.
+2
+Dividing the two...
+4 divided by 2 equals 2          
