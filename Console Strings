@@ -1,0 +1,67 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleAppStrings
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            string[] simpsons = { "Homer", "Marge", "Bart", "Lisa", "Maggie" }; //Create strings of arrays
+            Console.WriteLine("Hello! What is your favorite character in the Simpsons (you may only choose from the core family members): ");
+            string simpson = Console.ReadLine();
+            int position = Array.IndexOf(simpsons, simpson); //User Input
+            if (position >= 0)
+                Console.WriteLine("If I had to rank them, that would be no. {0} on my list.", position + 1); //Correct message
+            else
+                Console.WriteLine("Hey! That's not a Simpson!"); //Error message
+            Console.ReadLine(); //End program
+
+            string[] numArrays = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }; //Create integer of arrays
+            Console.WriteLine("Choose a number:");
+            string numArray = Console.ReadLine();
+            int position = Array.IndexOf(numArrays, numArray); //User input
+            if (position >= 1)
+                Console.WriteLine("That is the correct number. {0} on index.", position + 1); //Correct message
+            else
+                Console.WriteLine("Wrong index"); //Error message 
+            Console.ReadLine(); //End program 
+
+            List<string> dinosaurs = new List<string>(); //Create a list of strings for program
+
+            dinosaurs.Add("Tyrannosaurus"); //Add the list
+            dinosaurs.Add("Amargasaurus");
+            dinosaurs.Add("Mamenchisaurus");
+            dinosaurs.Add("Brachiosaurus");
+            dinosaurs.Remove("Deinonychus"); //Remove a list option
+            
+            Console.WriteLine("Choose a dinosaur:");
+            Convert.ToInt32(Console.ReadLine()); //Convert to input numbers
+            Console.WriteLine(dinosaurs[0]); //Index of dinosaur
+
+
+
+            Console.WriteLine("Good answer.");
+            
+            
+            
+            Console.ReadLine(); //End program
+        }  
+    }
+}
+Hello! What is your favorite character in the Simpsons (you may only choose from the core family members):
+Bart
+If I had to rank them, that would be no. 3 on my list.
+--------
+Choose a number:
+2
+That is the correct number. 2 on index.
+--------
+Choose a dinosaur:
+0
+Tyrannosaurus
+Good answer.
