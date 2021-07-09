@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Methods2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 100; //Integers applied
+            int b = 200;
+            int ret;
+            Parameters n = new Parameters(); //Apply Parameters class
+            ret = n.FindMax(a, b); //Max value
+            Console.WriteLine("Max value is : {0}", ret);
+            Console.ReadLine(); //End program
+        }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Methods2
+{
+    class Parameters //Create Class
+    {
+        public int FindMax(int num1, int num2) //FindMax of two numbers
+        {
+            int result;
+
+            if (num1 > num2)
+                result = num1;
+            else
+                result = num2;
+            return result; //Inititate result
+        }
+    }
+}
+Max value is : 200
