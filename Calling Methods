@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CallMethods
+{
+    class Program
+    {
+        private static int total; //Main program
+        public static void Main(string[] args)
+        {
+            Console.Write("\n\nFunction to calculate the sum of two numbers :\n"); //Inititate methods
+            Console.Write("--------------------------------------------------\n");
+            Console.Write("Enter a number: "); //User input
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter another number: "); //User input
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\nThe sum of two numbers is : {0} \n", total = num1 + num2); //Sum of two numbers
+            Console.WriteLine("You are awesome!");
+            Console.ReadLine(); //End program
+            
+        }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CallMethods
+{
+    class MathOperation //Create class
+    {
+        public static int Sum(int num1, int num2)
+        {
+            int total; //Methods for class
+            total = num1 + num2;
+            return total;
+        }
+    }
+}
+Function to calculate the sum of two numbers :
+--------------------------------------------------
+Enter a number: 300
+Enter another number: 300
+
+The sum of two numbers is : 600
+
+You are awesome!
