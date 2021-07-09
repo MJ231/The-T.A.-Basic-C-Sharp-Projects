@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AbstractClass
+{
+    public abstract class Person //Create class
+    {
+        public string FirstName { get; set; } //String of name
+        public string LastName { get; set; }
+        public abstract void SayName(); //Void method 
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AbstractClass
+{
+    public class Employee : Person //Create class
+    {
+        public override void SayName()
+        {
+            Console.WriteLine(FirstName + " " + LastName); //Display name
+        }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AbstractClass
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Employee employee = new Employee(); //Instantiate employee object
+            employee.FirstName = "Sample"; //Display name
+            employee.LastName = "Student";
+            employee.SayName();
+            Console.ReadLine(); //End program
+        }
+    }
+}
+Sample Student
