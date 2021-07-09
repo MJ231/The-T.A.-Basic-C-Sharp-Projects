@@ -1,0 +1,115 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MoreMethods
+{
+    class Program
+    {
+        private static int total;
+        public static void Main(string[] args)
+        {
+           
+        
+        {
+            Console.Write("\n\nFunction to calculate the sum of two numbers :\n"); //Inititate methods
+            Console.Write("--------------------------------------------------\n");
+            Console.Write("Enter a number: "); //User input
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter another number: "); //User input
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\nThe multiply of two numbers is : {0} \n", total = num1 * num2); //multiply of two numbers
+            Console.WriteLine("You are awesome!");
+            Console.ReadLine(); //End program
+
+        }
+            {
+                Console.Write("\n\nFunction to calculate the sum of two numbers :\n"); //Inititate methods
+                Console.Write("--------------------------------------------------\n");
+                Console.Write("Enter a number: "); //User input
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter another number: "); //User input
+                int num2 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("\nThe divide of two numbers is : {0} \n", total = num1 / num2); //divide of two numbers
+                Console.WriteLine("You are awesome!");
+                Console.ReadLine(); //End program
+            }
+
+            {
+                Console.Write("\n\nFunction to calculate the sum of two numbers :\n"); //Inititate methods
+                Console.Write("--------------------------------------------------\n");
+                Console.Write("Enter a number: "); //User input
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter another number: "); //User input
+                int num2 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("\nThe subtraction of two numbers is : {0} \n", total = num1 - num2); //subtraction of two numbers
+                Console.WriteLine("You are awesome!");
+                Console.ReadLine(); //End program
+            }
+        }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MoreMethods
+{
+    class FunctionsMath
+    {
+        public static int multiply(int num1, int num2)
+        {
+            int total; //Methods for class
+            total = num1 * num2;
+            return total;
+        }
+        public static int divide(int num3, int num4)
+        {
+            int total; //Methods for class
+            total = num3 / num4;
+            return total;
+        }
+        
+        public static int subtraction(int num5, int num6)
+        {
+            int total; //Methods for class
+            total = num5 - num6;
+            return total;
+        }
+
+    }
+}
+Function to calculate the sum of two numbers :
+--------------------------------------------------
+Enter a number: 3
+Enter another number: 5
+
+The multiply of two numbers is : 15
+
+You are awesome!
+
+
+
+Function to calculate the sum of two numbers :
+--------------------------------------------------
+Enter a number: 45
+Enter another number: 3
+
+The divide of two numbers is : 15
+
+You are awesome!
+
+
+
+Function to calculate the sum of two numbers :
+--------------------------------------------------
+Enter a number: 1
+Enter another number: 1
+
+The subtraction of two numbers is : 0
+
+You are awesome!
