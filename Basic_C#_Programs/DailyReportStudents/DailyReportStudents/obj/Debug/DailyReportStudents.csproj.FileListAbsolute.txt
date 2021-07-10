@@ -1,0 +1,7 @@
+C:\Users\doubl\source\repos\DailyReportStudents\DailyReportStudents\bin\Debug\DailyReportStudents.exe.config
+C:\Users\doubl\source\repos\DailyReportStudents\DailyReportStudents\bin\Debug\DailyReportStudents.exe
+C:\Users\doubl\source\repos\DailyReportStudents\DailyReportStudents\bin\Debug\DailyReportStudents.pdb
+C:\Users\doubl\source\repos\DailyReportStudents\DailyReportStudents\obj\Debug\DailyReportStudents.csproj.AssemblyReference.cache
+C:\Users\doubl\source\repos\DailyReportStudents\DailyReportStudents\obj\Debug\DailyReportStudents.csproj.CoreCompileInputs.cache
+C:\Users\doubl\source\repos\DailyReportStudents\DailyReportStudents\obj\Debug\DailyReportStudents.exe
+C:\Users\doubl\source\repos\DailyReportStudents\DailyReportStudents\obj\Debug\DailyReportStudents.pdb
