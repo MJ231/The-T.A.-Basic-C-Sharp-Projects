@@ -1,0 +1,7 @@
+C:\Users\doubl\source\repos\BooleanStatements\BooleanStatements\bin\Debug\BooleanStatements.exe.config
+C:\Users\doubl\source\repos\BooleanStatements\BooleanStatements\bin\Debug\BooleanStatements.exe
+C:\Users\doubl\source\repos\BooleanStatements\BooleanStatements\bin\Debug\BooleanStatements.pdb
+C:\Users\doubl\source\repos\BooleanStatements\BooleanStatements\obj\Debug\BooleanStatements.csproj.AssemblyReference.cache
+C:\Users\doubl\source\repos\BooleanStatements\BooleanStatements\obj\Debug\BooleanStatements.csproj.CoreCompileInputs.cache
+C:\Users\doubl\source\repos\BooleanStatements\BooleanStatements\obj\Debug\BooleanStatements.exe
+C:\Users\doubl\source\repos\BooleanStatements\BooleanStatements\obj\Debug\BooleanStatements.pdb
