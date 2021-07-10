@@ -1,0 +1,7 @@
+C:\Users\doubl\source\repos\AnonymousPersons\AnonymousPersons\bin\Debug\AnonymousPersons.exe.config
+C:\Users\doubl\source\repos\AnonymousPersons\AnonymousPersons\bin\Debug\AnonymousPersons.exe
+C:\Users\doubl\source\repos\AnonymousPersons\AnonymousPersons\bin\Debug\AnonymousPersons.pdb
+C:\Users\doubl\source\repos\AnonymousPersons\AnonymousPersons\obj\Debug\AnonymousPersons.csproj.AssemblyReference.cache
+C:\Users\doubl\source\repos\AnonymousPersons\AnonymousPersons\obj\Debug\AnonymousPersons.csproj.CoreCompileInputs.cache
+C:\Users\doubl\source\repos\AnonymousPersons\AnonymousPersons\obj\Debug\AnonymousPersons.exe
+C:\Users\doubl\source\repos\AnonymousPersons\AnonymousPersons\obj\Debug\AnonymousPersons.pdb
