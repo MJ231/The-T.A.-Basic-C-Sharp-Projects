@@ -1,0 +1,7 @@
+C:\Users\doubl\source\repos\CallMethods\CallMethods\bin\Debug\CallMethods.exe.config
+C:\Users\doubl\source\repos\CallMethods\CallMethods\bin\Debug\CallMethods.exe
+C:\Users\doubl\source\repos\CallMethods\CallMethods\bin\Debug\CallMethods.pdb
+C:\Users\doubl\source\repos\CallMethods\CallMethods\obj\Debug\CallMethods.csproj.AssemblyReference.cache
+C:\Users\doubl\source\repos\CallMethods\CallMethods\obj\Debug\CallMethods.csproj.CoreCompileInputs.cache
+C:\Users\doubl\source\repos\CallMethods\CallMethods\obj\Debug\CallMethods.exe
+C:\Users\doubl\source\repos\CallMethods\CallMethods\obj\Debug\CallMethods.pdb
