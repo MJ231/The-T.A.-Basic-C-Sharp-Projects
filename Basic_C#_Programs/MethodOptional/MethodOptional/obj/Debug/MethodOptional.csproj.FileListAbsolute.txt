@@ -1,0 +1,7 @@
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodOptional\MethodOptional\bin\Debug\MethodOptional.exe.config
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodOptional\MethodOptional\bin\Debug\MethodOptional.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodOptional\MethodOptional\bin\Debug\MethodOptional.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodOptional\MethodOptional\obj\Debug\MethodOptional.csproj.AssemblyReference.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodOptional\MethodOptional\obj\Debug\MethodOptional.csproj.CoreCompileInputs.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodOptional\MethodOptional\obj\Debug\MethodOptional.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodOptional\MethodOptional\obj\Debug\MethodOptional.pdb
