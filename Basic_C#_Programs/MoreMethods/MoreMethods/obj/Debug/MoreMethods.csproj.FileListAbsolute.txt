@@ -1,0 +1,14 @@
+C:\Users\doubl\source\repos\MoreMethods\MoreMethods\obj\Debug\MoreMethods.csproj.AssemblyReference.cache
+C:\Users\doubl\source\repos\MoreMethods\MoreMethods\obj\Debug\MoreMethods.csproj.CoreCompileInputs.cache
+C:\Users\doubl\source\repos\MoreMethods\MoreMethods\bin\Debug\MoreMethods.exe.config
+C:\Users\doubl\source\repos\MoreMethods\MoreMethods\bin\Debug\MoreMethods.exe
+C:\Users\doubl\source\repos\MoreMethods\MoreMethods\bin\Debug\MoreMethods.pdb
+C:\Users\doubl\source\repos\MoreMethods\MoreMethods\obj\Debug\MoreMethods.exe
+C:\Users\doubl\source\repos\MoreMethods\MoreMethods\obj\Debug\MoreMethods.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MoreMethods\MoreMethods\bin\Debug\MoreMethods.exe.config
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MoreMethods\MoreMethods\bin\Debug\MoreMethods.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MoreMethods\MoreMethods\bin\Debug\MoreMethods.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MoreMethods\MoreMethods\obj\Debug\MoreMethods.csproj.AssemblyReference.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MoreMethods\MoreMethods\obj\Debug\MoreMethods.csproj.CoreCompileInputs.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MoreMethods\MoreMethods\obj\Debug\MoreMethods.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\MoreMethods\MoreMethods\obj\Debug\MoreMethods.pdb
