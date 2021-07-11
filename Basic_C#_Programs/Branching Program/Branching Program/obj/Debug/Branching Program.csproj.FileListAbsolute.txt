@@ -5,3 +5,10 @@ C:\Users\doubl\source\repos\Branching Program\Branching Program\obj\Debug\Branch
 C:\Users\doubl\source\repos\Branching Program\Branching Program\obj\Debug\Branching Program.csproj.CoreCompileInputs.cache
 C:\Users\doubl\source\repos\Branching Program\Branching Program\obj\Debug\Branching Program.exe
 C:\Users\doubl\source\repos\Branching Program\Branching Program\obj\Debug\Branching Program.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Branching Program\Branching Program\bin\Debug\Branching Program.exe.config
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Branching Program\Branching Program\bin\Debug\Branching Program.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Branching Program\Branching Program\bin\Debug\Branching Program.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Branching Program\Branching Program\obj\Debug\Branching Program.csproj.AssemblyReference.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Branching Program\Branching Program\obj\Debug\Branching Program.csproj.CoreCompileInputs.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Branching Program\Branching Program\obj\Debug\Branching Program.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Branching Program\Branching Program\obj\Debug\Branching Program.pdb
