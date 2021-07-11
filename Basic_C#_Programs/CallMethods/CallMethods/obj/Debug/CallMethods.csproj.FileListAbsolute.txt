@@ -5,3 +5,10 @@ C:\Users\doubl\source\repos\CallMethods\CallMethods\obj\Debug\CallMethods.csproj
 C:\Users\doubl\source\repos\CallMethods\CallMethods\obj\Debug\CallMethods.csproj.CoreCompileInputs.cache
 C:\Users\doubl\source\repos\CallMethods\CallMethods\obj\Debug\CallMethods.exe
 C:\Users\doubl\source\repos\CallMethods\CallMethods\obj\Debug\CallMethods.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\CallMethods\CallMethods\bin\Debug\CallMethods.exe.config
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\CallMethods\CallMethods\bin\Debug\CallMethods.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\CallMethods\CallMethods\bin\Debug\CallMethods.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\CallMethods\CallMethods\obj\Debug\CallMethods.csproj.AssemblyReference.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\CallMethods\CallMethods\obj\Debug\CallMethods.csproj.CoreCompileInputs.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\CallMethods\CallMethods\obj\Debug\CallMethods.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\CallMethods\CallMethods\obj\Debug\CallMethods.pdb
