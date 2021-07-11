@@ -5,3 +5,10 @@ C:\Users\doubl\source\repos\BooleanLogicAssignment\BooleanLogicAssignment\obj\De
 C:\Users\doubl\source\repos\BooleanLogicAssignment\BooleanLogicAssignment\obj\Debug\BooleanLogicAssignment.csproj.CoreCompileInputs.cache
 C:\Users\doubl\source\repos\BooleanLogicAssignment\BooleanLogicAssignment\obj\Debug\BooleanLogicAssignment.exe
 C:\Users\doubl\source\repos\BooleanLogicAssignment\BooleanLogicAssignment\obj\Debug\BooleanLogicAssignment.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanLogicAssignment\BooleanLogicAssignment\bin\Debug\BooleanLogicAssignment.exe.config
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanLogicAssignment\BooleanLogicAssignment\bin\Debug\BooleanLogicAssignment.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanLogicAssignment\BooleanLogicAssignment\bin\Debug\BooleanLogicAssignment.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanLogicAssignment\BooleanLogicAssignment\obj\Debug\BooleanLogicAssignment.csproj.AssemblyReference.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanLogicAssignment\BooleanLogicAssignment\obj\Debug\BooleanLogicAssignment.csproj.CoreCompileInputs.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanLogicAssignment\BooleanLogicAssignment\obj\Debug\BooleanLogicAssignment.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanLogicAssignment\BooleanLogicAssignment\obj\Debug\BooleanLogicAssignment.pdb

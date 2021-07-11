@@ -12,28 +12,18 @@ namespace BooleanLogicAssignment
         {
             // Start of Application
             Console.WriteLine("What is your age?"); // Answer to age limit
-            string ageNum = Console.ReadLine();
-            Console.WriteLine("Age is: " + ageNum);
-            Console.WriteLine("Have you ever had a DUI?"); // Answer to having any DUI's
-            Console.WriteLine(false && false);
+            int age = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Have you ever had a DUI? Yes or No?"); // Answer to having any DUI's
+            string dui = Console.ReadLine();
+            
             Console.WriteLine("How many speeding tickets do you have?"); // Answer to having any speeding tickets
-            string speTick = Console.ReadLine();
-            Console.WriteLine("Tickets claimed: " + speTick);
+            int speTick = Convert.ToInt32(Console.ReadLine());
+            
             Console.WriteLine("Qualified?"); // Answer to being qualified
-            Console.WriteLine(true ^ false);
+            bool qualify = (age >= 15 && (dui == "no" || dui == "No") && speTick <= 3);
+            Console.WriteLine(qualify);
             Console.ReadLine();
-            // End of application
-
-            // Start of Application
-            //Console.WriteLine("What is your age?"); // Answer to age limit
-            //Console.WriteLine("32");
-            //Console.WriteLine("Have you ever had a DUI?"); // Answer to having any DUI's
-            //Console.WriteLine(false && false);
-            //Console.WriteLine("How many speeding tickets do you have?"); // Answer to having any speeding tickets
-            //Console.WriteLine("1");
-            //Console.WriteLine("Qualified?"); // Answer to being qualified
-            //Console.WriteLine(true ^ false);
-            //Console.ReadLine();
             // End of application
 
         }
