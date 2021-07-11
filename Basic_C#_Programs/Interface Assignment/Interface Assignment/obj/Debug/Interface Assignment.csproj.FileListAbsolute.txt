@@ -1,0 +1,7 @@
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Interface Assignment\Interface Assignment\bin\Debug\Interface Assignment.exe.config
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Interface Assignment\Interface Assignment\bin\Debug\Interface Assignment.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Interface Assignment\Interface Assignment\bin\Debug\Interface Assignment.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Interface Assignment\Interface Assignment\obj\Debug\Interface Assignment.csproj.AssemblyReference.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Interface Assignment\Interface Assignment\obj\Debug\Interface Assignment.csproj.CoreCompileInputs.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Interface Assignment\Interface Assignment\obj\Debug\Interface Assignment.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Interface Assignment\Interface Assignment\obj\Debug\Interface Assignment.pdb
