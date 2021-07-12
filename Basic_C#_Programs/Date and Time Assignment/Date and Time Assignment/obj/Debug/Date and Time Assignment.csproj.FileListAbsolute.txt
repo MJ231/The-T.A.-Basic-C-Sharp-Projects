@@ -1,0 +1,7 @@
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Date and Time Assignment\Date and Time Assignment\bin\Debug\Date and Time Assignment.exe.config
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Date and Time Assignment\Date and Time Assignment\bin\Debug\Date and Time Assignment.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Date and Time Assignment\Date and Time Assignment\bin\Debug\Date and Time Assignment.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Date and Time Assignment\Date and Time Assignment\obj\Debug\Date and Time Assignment.csproj.AssemblyReference.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Date and Time Assignment\Date and Time Assignment\obj\Debug\Date and Time Assignment.csproj.CoreCompileInputs.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Date and Time Assignment\Date and Time Assignment\obj\Debug\Date and Time Assignment.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Date and Time Assignment\Date and Time Assignment\obj\Debug\Date and Time Assignment.pdb
