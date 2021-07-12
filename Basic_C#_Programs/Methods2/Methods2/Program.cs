@@ -10,10 +10,17 @@ namespace Methods2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Pick a Number."); // User input
+            string add1 = Console.ReadLine();
+            int addition1 = Int32.Parse(add1);
+
+            Console.WriteLine("Pick a Second Number."); // User input
+            string add2 = Console.ReadLine();
+            int addition2 = Int32.Parse(add2);
+
             Parameters paraMeters = new Parameters(); //Name parameters
-            int parameter1 = 20;
-            int parameter2 = 40;
-            paraMeters.voidMethod(parameter1, parameter2);
+            
+            paraMeters.Total(addition1, addition2);
             Console.ReadLine(); //End program
         }
     }
