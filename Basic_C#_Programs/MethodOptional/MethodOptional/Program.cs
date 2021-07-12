@@ -10,16 +10,27 @@ namespace MethodOptional
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Pick a Number Please."); // User input
-            string numOne = Console.ReadLine();
-            int numTwo = Int32.Parse(numOne);
-            Console.WriteLine("Pick a Second Number if You Dare. Otherwise, just Hit Return."); // User input
-            string numThree = Console.ReadLine(); // Add string
+            OptionalParameters result = new OptionalParameters(); // Integrate class program
 
-            OptionalParameters parameter = new OptionalParameters(); // Integrate other class
-            parameter.Total(numTwo, numThree);
+            Console.WriteLine("Please Enter an Integer:"); // User input
+            int firstEntry = Convert.ToInt32(Console.ReadLine()); // Convert integer to whole numbers
 
-            Console.WriteLine("The total equals:" + parameter.Total(numTwo, numThree)); //Get results
+            Console.WriteLine("Please Optionally Enter a Second Integer: (Otherwise, Press Enter.)"); // Optional user input
+            string input = Console.ReadLine();
+            int secondEntry = 0;
+            if (!string.IsNullOrEmpty(input)) // If statement
+            {
+                secondEntry = Convert.ToInt16(input); // Inputs second entry after user input
+                result.optionalModifier(firstEntry, secondEntry);
+                Console.WriteLine("The First Modified Entry is: " + result.x + " and the Second Modified Entry is: " + result.y); // Displays results to the user
+
+            }
+            else
+            {
+                result.optionalModifier(firstEntry); // Only displays the first entry
+                Console.WriteLine("The First Modified Entry is: " + result.x); // Displays results to the user
+
+            }
 
             Console.ReadLine(); // End program
         }
