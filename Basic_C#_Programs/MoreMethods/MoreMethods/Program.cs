@@ -8,26 +8,28 @@ namespace MoreMethods
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            // Start application
+            Console.WriteLine("These are the Functions of the Program.");
+            int number = 45;
+            string stNum = "500";
 
-            Console.WriteLine("Please Enter a Value to be Operated on.");
-            int entry = Convert.ToInt32(Console.ReadLine());
-
-            FunctionsMath result = new FunctionsMath();
-            result.integerMod(entry);
-            Console.WriteLine("The Result is: " + result.x);
+            Console.WriteLine("45 plus 100 equals: "); // Addition function initiated into whole number
+            FunctionsMath add = new FunctionsMath(); // Class program integrated
+            add.Adding(number);
             Console.ReadLine();
 
-            decimal entryTwo = Convert.ToDecimal(entry);
-            result.integerMod(entryTwo);
-            Console.WriteLine("The Result is: " + result.y);
+            Console.WriteLine("45 divided by 2 equals: "); // Division function initiated into decimal 
+            FunctionsMath divi = new FunctionsMath(); // Class program integrated
+            divi.Divide(number);
             Console.ReadLine();
 
-            string entryThree = Convert.ToString(entry);
-            result.integerMod(entryThree);
-            Console.WriteLine("The result is: " + result.w);
-            Console.ReadLine();
+            Console.WriteLine("45 multiplied by 500 equals: "); // Multiplication function initiated into whole number
+            FunctionsMath thNum = new FunctionsMath(); // Class program integrated
+            thNum.Third(stNum);
+            Console.WriteLine("Thank you!");
+            Console.ReadLine(); // End program
         }
     }
 }

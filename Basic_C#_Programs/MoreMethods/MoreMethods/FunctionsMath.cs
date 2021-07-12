@@ -6,28 +6,25 @@ using System.Threading.Tasks;
 
 namespace MoreMethods
 {
-    public class FunctionsMath
+    public class FunctionsMath // Class name
     {
-        public void integerMod(int x)
+        public void Adding(int addNum) // Addition method
         {
-            this.x = x + 12;
-            
-        }
-        public void integerMod(decimal y)
-        {
-            this.y = y / 10;
-        }
-        
-        public void integerMod(string z)
-        {
-            int w = Int32.Parse(z);
-            this.w = w * 5;
+            Console.WriteLine(addNum + 100);
+
         }
 
-        public int x { get; set; }
-        public decimal y { get; set; }
-        public string z { get; set; }
-        public int w { get; set; }
+        public void Divide(decimal divNum) // Decimal method
+        {
+            Console.WriteLine(divNum / 2);
 
+        }
+
+        public void Third(string thirdNum) // String method
+        {
+            int tNum = Convert.ToInt32(thirdNum);
+            int tNumTotal = tNum * 45;
+            Console.WriteLine(tNumTotal);
+        }
     }
 }
