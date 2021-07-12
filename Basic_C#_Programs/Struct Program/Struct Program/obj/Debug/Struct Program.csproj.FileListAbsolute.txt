@@ -1,0 +1,7 @@
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Struct Program\Struct Program\bin\Debug\Struct Program.exe.config
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Struct Program\Struct Program\bin\Debug\Struct Program.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Struct Program\Struct Program\bin\Debug\Struct Program.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Struct Program\Struct Program\obj\Debug\Struct Program.csproj.AssemblyReference.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Struct Program\Struct Program\obj\Debug\Struct Program.csproj.CoreCompileInputs.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Struct Program\Struct Program\obj\Debug\Struct Program.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\Struct Program\Struct Program\obj\Debug\Struct Program.pdb
