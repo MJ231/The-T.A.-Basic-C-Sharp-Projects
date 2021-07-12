@@ -10,17 +10,14 @@ namespace Class_Assignment
     {
         static void Main(string[] args)
         {
-            
             Console.WriteLine("Pick a Number of Your Choice."); //User input
-            int numTwo = Convert.ToInt32(Console.ReadLine()); //Convert integer
-            int numOne = 10; //Give integers
-            int car = 90;
-            int truck = 3;
+            int divNum = Convert.ToInt32(Console.ReadLine());
+            int div1;
 
+            ClassMath divide = new ClassMath(); // Integrated from class 
+            divide.NumDivi(divNum, out div1);
 
-            ClassMath FirstOp = new ClassMath(); //Class method
-            FirstOp.MathMethod(numOne, numTwo);
-            FirstOp.MathMethod2(car, truck);
+            Console.WriteLine("\n{0} divided by 2 equals: {1}", divNum, div1); // Results from method
 
             Console.ReadLine(); //End program
         }

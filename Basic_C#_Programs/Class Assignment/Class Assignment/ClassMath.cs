@@ -6,23 +6,16 @@ using System.Threading.Tasks;
 
 namespace Class_Assignment
 {
-    public class ClassMath //Name class
+    class ClassMath // Name class
     {
-        public void MathMethod(int numOne, int numTwo) //Void method
+        public void NumDivi(int divNum, out int div1) // Void method
         {
-            int result = numOne / 2; //Results of operation 
-            int resultTwo = numTwo / 2;
-            Console.WriteLine("Your Number Divided by 2 = " + resultTwo);
+            div1 = divNum / 2;
         }
-        public void MathMethod2(int numThree, int numFour) //More methods
+        
+        public static void NumDivi() // More methods
         {
-            int resultFive = numThree * numFour;
-            Console.WriteLine(numThree + " x " + numFour + " = " + resultFive);
-        }
-        public static int MathMethod2(int numOne, out int numTwo) //Output method
-        {
-            numTwo = numOne + 5;
-            return numTwo;
+            Console.WriteLine("Dividing my Own Number 24 by 2 equals: 12"); // User input
         }
     }
 }
