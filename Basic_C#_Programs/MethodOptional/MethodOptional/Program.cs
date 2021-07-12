@@ -10,16 +10,18 @@ namespace MethodOptional
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Pick a Number Please."); //User input
-            int numOne = Convert.ToInt32(Console.ReadLine()); //Convert integer to a whole number
-            Console.WriteLine("Pick a Second Number if You Dare. Otherwise, just Hit Return."); //User input
-            string ans = Console.ReadLine(); //Add string
+            Console.WriteLine("Pick a Number Please."); // User input
+            string numOne = Console.ReadLine();
+            int numTwo = Int32.Parse(numOne);
+            Console.WriteLine("Pick a Second Number if You Dare. Otherwise, just Hit Return."); // User input
+            string numThree = Console.ReadLine(); // Add string
 
-            OptionalParameters FirOp = new OptionalParameters(); //Integrate other class
+            OptionalParameters parameter = new OptionalParameters(); // Integrate other class
+            parameter.Total(numTwo, numThree);
 
-            Console.WriteLine("Your Input(s) + 10 = " + FirOp.MathMethod(numOne, ans)); //Get results
+            Console.WriteLine("The total equals:" + parameter.Total(numTwo, numThree)); //Get results
 
-            Console.ReadLine(); //End program
+            Console.ReadLine(); // End program
         }
     }
 }

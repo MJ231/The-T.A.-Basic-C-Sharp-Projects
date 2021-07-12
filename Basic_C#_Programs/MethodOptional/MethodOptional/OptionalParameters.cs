@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace MethodOptional
 {
-    public class OptionalParameters //Class name
+    class OptionalParameters // Class name
     {
-        public int MathMethod(int numOne, string ans) //Method initiated
+        public int Total(int numOne, string numTwo) // Method initiated
         {
-            int result = 0; //Give integers an operation
-            if (ans == "")
+            int combo; // Give integers an operation
+            if (numTwo == "")
             {
-                result = numOne + 10;
+                combo = numOne;
             }
             else
             {
-                int numTwo = Convert.ToInt32(ans);
-                result = numOne + numTwo + 10;
+                int numThree = Convert.ToInt32(numTwo);
+                combo = numOne + numThree;
             }
-            return result; //Returns results 
+            return combo; // Returns results 
         }
     }
 }
