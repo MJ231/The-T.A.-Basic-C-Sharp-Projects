@@ -10,15 +10,20 @@ namespace Class_Assignment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Pick a Number of Your Choice."); //User input
-            int divNum = Convert.ToInt32(Console.ReadLine());
-            int div1;
+            Console.WriteLine("Pick a Number of Your Choice that Will be Divided by 2:"); // User input
+            int entry = Convert.ToInt32(Console.ReadLine()); // Convert to whole numbers
+            int answer = 0;
 
-            ClassMath divide = new ClassMath(); // Integrated from class 
-            divide.NumDivi(divNum, out div1);
+            ClassMath adjusted = new ClassMath(); // Integrated from class 
+            adjusted.Division(entry, out answer); // Adjusted entry from user input
+            Console.WriteLine("Your Entered Value Divided by 2 is: " + answer); // Display results
 
-            Console.WriteLine("\n{0} divided by 2 equals: {1}", divNum, div1); // Results from method
+            Console.WriteLine("Pick a Number of Your Choice that Will be Divided by 2:"); // User input
+            decimal entry2 = Convert.ToInt32(Console.ReadLine()); // Convert to whole numbers
+            decimal answer2 = 0;
 
+            ClassMath.Division(entry2, out answer2); // Integrate from class program 
+            Console.WriteLine(answer2); // Display results
             Console.ReadLine(); //End program
         }
     }

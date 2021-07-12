@@ -6,16 +6,21 @@ using System.Threading.Tasks;
 
 namespace Class_Assignment
 {
-    class ClassMath // Name class
+    public class ClassMath // Name class
     {
-        public void NumDivi(int divNum, out int div1) // Void method
+        public void Division(int x, out int y) // Void method
         {
-            div1 = divNum / 2;
+            y = x / 2;
         }
         
-        public static void NumDivi() // More methods
+        public static void Division(decimal w, out decimal z) // More methods
         {
-            Console.WriteLine("Dividing my Own Number 24 by 2 equals: 12"); // User input
+            z = w / 2;
         }
+
+        int x { get; set; } // Display integers 
+        int y { get; set; }
+        decimal w { get; set; } // Display Decimal integers
+        decimal z { get; set; }
     }
 }
