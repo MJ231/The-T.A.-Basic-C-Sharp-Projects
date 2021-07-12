@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace Methods2
 {
-    class Parameters //Name class
+    class Parameters // Name class
     {
-        public void Total(int parameter1, int parameter2) //Void of two parameters
+        public void integerModifier(int x, int y) // Void of two parameters
         {
-            int addNum1 = parameter1; // Parameter equation
-            int addNum2 = parameter2;
-            int total = addNum1 + addNum2;
-            Console.WriteLine("Your number " + addNum1 + " plus your number " + addNum2 + " equals: " + total); //Initiate results
+            x = x + 5; // Equation of integers
+            Console.WriteLine(y); // Displays second integer
+            Console.ReadLine(); // End program
         }
     }
 }

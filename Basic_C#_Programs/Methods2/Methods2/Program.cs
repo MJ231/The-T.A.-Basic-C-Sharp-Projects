@@ -10,18 +10,15 @@ namespace Methods2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Pick a Number."); // User input
-            string add1 = Console.ReadLine();
-            int addition1 = Int32.Parse(add1);
+            Console.WriteLine("Please Enter an Integer Value:"); // User input
+            int one = Convert.ToInt32(Console.ReadLine()); // Convert integers to whole numbers
+            Console.WriteLine("Please Enter a Second Integer Value:"); // User input
+            int two = Convert.ToInt32(Console.ReadLine()); // Convert integers to whole numbers
 
-            Console.WriteLine("Pick a Second Number."); // User input
-            string add2 = Console.ReadLine();
-            int addition2 = Int32.Parse(add2);
-
-            Parameters paraMeters = new Parameters(); //Name parameters
-            
-            paraMeters.Total(addition1, addition2);
-            Console.ReadLine(); //End program
+            Parameters result = new Parameters(); // Integrate class program
+            result.integerModifier(one, two); // Results displayed on console application
+            result.integerModifier(5, 7); // Results displayed on console application
+            Console.ReadLine(); // End program
         }
     }
 }
