@@ -10,37 +10,34 @@ namespace StringsAndIntegersAssignment
     {
         static void Main(string[] args)
         {
-            List<int> numList = new List<int>() { 25, 30, 40, 600, 755, 820 }; //Creating a string to try in a console application
-
+            RetryPoint:
+            
             try //Testing code for errors
             {
+                List<int> numList = new List<int>() { 25, 30, 40, 600, 755, 820 }; //Creating a string to try in a console application
                 Console.WriteLine("What Number Would You Like To Choose To Divide?");
                 int diOne = Convert.ToInt32(Console.ReadLine());
 
-                for (int j = 0; j < numList.Count; j++)  //Each loop
+                foreach(int i in numList)  //Each loop
                 {
-                    int result = numList[j] / diOne;
-                    Console.WriteLine(numList[j] + " divided by " + diOne + " = " + result); //Sum of equation
+
+                    Console.WriteLine(i / diOne); //Sum of equation
                 }
-                Console.ReadLine();
+                
             }
             catch (FormatException ex) //Define a block of code to be executed, if error occurs
             {
                 Console.WriteLine("Please Type a Whole Number.");
-                return;
+                goto RetryPoint;
             }
             catch (DivideByZeroException ex) //Define a block of code to be executed, if error occurs
             {
                 Console.WriteLine("Can't Divide by Zero, Sorry.");
+                goto RetryPoint;
             }
-            catch (Exception ex) //Define a block of code to be executed, if error occurs
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                Console.ReadLine(); //Able to read the console application; end of program
-            }
+            Console.WriteLine("Thank You, Your Input was a Non-Zero Integer and the Program has Finished.");
+            Console.ReadLine(); //Able to read the console application; end of program
+            
         }
     }
 }
