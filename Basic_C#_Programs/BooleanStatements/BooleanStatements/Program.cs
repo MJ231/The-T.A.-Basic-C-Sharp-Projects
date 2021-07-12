@@ -11,6 +11,13 @@ namespace BooleanStatements
         static void Main(string[] args)
         {
             // Start Program
+            int i = 0;
+            while (i < 30)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+            
             Console.WriteLine("Guess my age?"); // Print message
             int age = Convert.ToInt32(Console.ReadLine()); // Convert into integers
             bool isGuessed = age == 30; // equal to correct age

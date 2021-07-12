@@ -5,3 +5,10 @@ C:\Users\doubl\source\repos\BooleanStatements\BooleanStatements\obj\Debug\Boolea
 C:\Users\doubl\source\repos\BooleanStatements\BooleanStatements\obj\Debug\BooleanStatements.csproj.CoreCompileInputs.cache
 C:\Users\doubl\source\repos\BooleanStatements\BooleanStatements\obj\Debug\BooleanStatements.exe
 C:\Users\doubl\source\repos\BooleanStatements\BooleanStatements\obj\Debug\BooleanStatements.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanStatements\BooleanStatements\bin\Debug\BooleanStatements.exe.config
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanStatements\BooleanStatements\bin\Debug\BooleanStatements.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanStatements\BooleanStatements\bin\Debug\BooleanStatements.pdb
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanStatements\BooleanStatements\obj\Debug\BooleanStatements.csproj.AssemblyReference.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanStatements\BooleanStatements\obj\Debug\BooleanStatements.csproj.CoreCompileInputs.cache
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanStatements\BooleanStatements\obj\Debug\BooleanStatements.exe
+C:\Users\doubl\Documents\GitHub\The-T.A.-Basic-C-Sharp-Projects\Basic_C#_Programs\BooleanStatements\BooleanStatements\obj\Debug\BooleanStatements.pdb
