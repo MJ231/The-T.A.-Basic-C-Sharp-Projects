@@ -10,14 +10,14 @@ namespace Methods2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please Enter an Integer Value:"); // User input
-            int one = Convert.ToInt32(Console.ReadLine()); // Convert integers to whole numbers
-            Console.WriteLine("Please Enter a Second Integer Value:"); // User input
-            int two = Convert.ToInt32(Console.ReadLine()); // Convert integers to whole numbers
+            
+            Console.WriteLine("Hello, Welcome to the Beginning of the Program:"); // Prints what's in parentheses to screen
 
-            Parameters result = new Parameters(); // Integrate class program
-            result.integerModifier(one, two); // Results displayed on console application
-            result.integerModifier(5, 7); // Results displayed on console application
+
+            Parameters parameter = new Parameters();  // Instantiates Parameters class
+
+
+            parameter.Nums(num1: 12, num2: 10); // Calls the method in the class specifying the parameters by name
             Console.ReadLine(); // End program
         }
     }
