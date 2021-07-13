@@ -8,52 +8,71 @@ namespace Lambda_Program
 {
     class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            List<Employee> employeeList = new List<Employee>(); // Integrate employee class
-
-            employeeList.Add(new Employee() { FirstName = "Neil", LastName = "Dawn", EmployeeID = 001 }); // Give ten employees names and id's 
-            employeeList.Add(new Employee() { FirstName = "Paige", LastName = "Tatum", EmployeeID = 002 });
-            employeeList.Add(new Employee() { FirstName = "Joe", LastName = "King", EmployeeID = 003 });
-            employeeList.Add(new Employee() { FirstName = "Holly", LastName = "Nights", EmployeeID = 004 });
-            employeeList.Add(new Employee() { FirstName = "Barb", LastName = "Blurr", EmployeeID = 005 });
-            employeeList.Add(new Employee() { FirstName = "Justin", LastName = "Coo", EmployeeID = 006 });
-            employeeList.Add(new Employee() { FirstName = "Robin", LastName = "Banks", EmployeeID = 007 });
-            employeeList.Add(new Employee() { FirstName = "Anna", LastName = "Gray", EmployeeID = 008 });
-            employeeList.Add(new Employee() { FirstName = "Joe", LastName = "Kerr", EmployeeID = 009 });
-            employeeList.Add(new Employee() { FirstName = "Terry", LastName = "Funk", EmployeeID = 010 });
-
-            Console.WriteLine("Employee List:");
-            foreach (Employee emp in employeeList)
             {
-                //Console.WriteLine("Employee List: \nFirst Name: {0} \tLast Name: {1} \tId: {2}", emp.FirstName, emp.LastName, emp.EmployeeId);
-                Console.WriteLine(emp.FirstName + " " + emp.LastName + " Id: " + emp.EmployeeID); // Output employee names
+                Employee employee1 = new Employee() { FirstName = "Joe", LastName = "Bales", ID = 1 };
+                Employee employee2 = new Employee() { FirstName = "Joe", LastName = "Smith", ID = 2 };
+                Employee employee3 = new Employee() { FirstName = "Bill", LastName = "Bales", ID = 3 };
+                Employee employee4 = new Employee() { FirstName = "Bob", LastName = "Henderson", ID = 4 };
+                Employee employee5 = new Employee() { FirstName = "James", LastName = "Bond", ID = 5 };
+                Employee employee6 = new Employee() { FirstName = "Chuck", LastName = "Norris", ID = 6 };
+                Employee employee7 = new Employee() { FirstName = "Sally", LastName = "Smith", ID = 7 };
+                Employee employee8 = new Employee() { FirstName = "Ted", LastName = "Nugent", ID = 8 };
+                Employee employee9 = new Employee() { FirstName = "Sherri", LastName = "Boot", ID = 9 };
+                Employee employee10 = new Employee() { FirstName = "Ben", LastName = "Franklin", ID = 10 };
+                List<Employee> employees = new List<Employee> { employee1, employee2, employee3, employee4, employee5, employee6, employee7, employee8, employee9, employee10 };
 
-            }
-
-            Console.WriteLine("\nEmployees with the First Name Joe:");
-            List<Employee> joeList = new List<Employee>(); // Integrate employee class
-            foreach (Employee joeEmp in employeeList)
-            {
-                if (joeEmp.FirstName == "Joe")
+                // Display full list
+                Console.WriteLine("The Worker Team:");
+                foreach (Employee employee in employees)
                 {
-                    joeList.Add(joeEmp);
-                    Console.WriteLine("First Name: {0} \tLast Name: {1} \tId: {2}", joeEmp.FirstName, joeEmp.LastName, joeEmp.EmployeeID); // Output "Joe" name
+                    Console.WriteLine(employee.FirstName + " " + employee.LastName + " ID:" + employee.ID);
                 }
-            }
+                Console.WriteLine();
 
-            Console.WriteLine("\nEmployees with First Name Joe:");
-            foreach (Employee empJoe in employeeList.FindAll(x => x.FirstName == "Joe")) // Display output of only "Joe"
-            {
-                Console.WriteLine("First Name: {0} Last Name: {1} Id: {2}", empJoe.FirstName, empJoe.LastName, empJoe.EmployeeID); // Output "Joe" name
-            }
+                // Create Joe list
+                List<Employee> guysNamedJoe = new List<Employee>();
+                foreach (Employee employee in employees)
+                {
+                    if (employee.FirstName == "Joe")
+                    {
+                        guysNamedJoe.Add(employee);
+                    }
+                }
 
-            Console.WriteLine("\nEmployee Id #'s Over 5: ");
-            foreach (Employee idNum in employeeList.FindAll(x => x.EmployeeID > 5)) // Display employee id's greater than five 
-            {
-                Console.WriteLine("Id # {0}: {1} {2}", idNum.EmployeeID, idNum.FirstName, idNum.LastName); // Output employee names
+                // Display joe list
+                Console.WriteLine("Guys Named Joe:");
+                foreach (Employee guy in guysNamedJoe)
+                {
+                    Console.WriteLine(guy.FirstName + " " + guy.LastName + " ID:" + guy.ID);
+                }
+                Console.WriteLine();
+
+                // Create joe list 2
+                List<Employee> guysNamedJoe2 = employees.Where(x => x.FirstName == "Joe").ToList();
+
+                // Display joe list 2
+                Console.WriteLine("Guys Named Joe from Lambda:");
+                foreach (Employee guy in guysNamedJoe2)
+                {
+                    Console.WriteLine(guy.FirstName + " " + guy.LastName + " ID:" + guy.ID);
+                }
+                Console.WriteLine();
+
+                // Create ID > 5 List
+                List<Employee> ID5 = employees.Where(x => x.ID > 5).ToList();
+
+                // Display ID > 5 List
+                Console.WriteLine("Employees with ID > 5:");
+                foreach (Employee employee in ID5)
+                {
+                    Console.WriteLine(employee.FirstName + " " + employee.LastName + " ID:" + employee.ID);
+                }
+                Console.WriteLine();
+
+                Console.ReadLine(); // End program
             }
-            Console.ReadLine(); // End program
         }
     }
 }

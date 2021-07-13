@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lambda_Program
 {
-    public class Employee // Create employee class
+    class Employee // Create employee class
     {
-        public string FirstName { get; set; } // Create strings of integers 
+        public string FirstName { get; set; } // Name for strings and integer
         public string LastName { get; set; }
-        public int EmployeeID { get; set; }
+        public int ID { get; set; }
+
     }
 }
