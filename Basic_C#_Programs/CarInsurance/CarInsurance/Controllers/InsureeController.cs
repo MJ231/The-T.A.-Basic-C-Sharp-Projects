@@ -98,6 +98,7 @@ namespace CarInsurance.Controllers
                 {
                     insuree.Quote = insuree.Quote * 3 / 2;
                 }
+                
 
                 if (ModelState.IsValid)
                 {

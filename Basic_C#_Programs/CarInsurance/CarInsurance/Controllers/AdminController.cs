@@ -14,6 +14,7 @@ namespace CarInsurance.Controllers
     {
         private InsuranceEntities db = new InsuranceEntities();
 
+        
         // GET: Admin
         public ActionResult Index()
         {
