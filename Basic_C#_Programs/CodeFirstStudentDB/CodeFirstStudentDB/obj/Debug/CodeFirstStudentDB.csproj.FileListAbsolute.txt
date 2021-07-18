@@ -1,0 +1,12 @@
+C:\Users\doubl\source\repos\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\CodeFirstStudentDB.exe.config
+C:\Users\doubl\source\repos\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\CodeFirstStudentDB.exe
+C:\Users\doubl\source\repos\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\CodeFirstStudentDB.pdb
+C:\Users\doubl\source\repos\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\EntityFramework.dll
+C:\Users\doubl\source\repos\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\doubl\source\repos\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\EntityFramework.xml
+C:\Users\doubl\source\repos\CodeFirstStudentDB\CodeFirstStudentDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\doubl\source\repos\CodeFirstStudentDB\CodeFirstStudentDB\obj\Debug\CodeFirstStudentDB.csproj.AssemblyReference.cache
+C:\Users\doubl\source\repos\CodeFirstStudentDB\CodeFirstStudentDB\obj\Debug\CodeFirstStudentDB.csproj.CoreCompileInputs.cache
+C:\Users\doubl\source\repos\CodeFirstStudentDB\CodeFirstStudentDB\obj\Debug\CodeFirstStudentDB.csproj.CopyComplete
+C:\Users\doubl\source\repos\CodeFirstStudentDB\CodeFirstStudentDB\obj\Debug\CodeFirstStudentDB.exe
+C:\Users\doubl\source\repos\CodeFirstStudentDB\CodeFirstStudentDB\obj\Debug\CodeFirstStudentDB.pdb
