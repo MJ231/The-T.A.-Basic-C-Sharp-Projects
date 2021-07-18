@@ -32,3 +32,15 @@ This Project Creates An Interface Called IQuittable And Has It Define A Void Met
 [Lambda Assignment](https://github.com/MJ231/The-T.A.-Basic-C-Sharp-Projects/tree/main/Basic_C%23_Programs/Lambda%20Program)
 
 This Project Creates An Application Of Ten Employees Where Each Employee Has A First And Last Name. They Also Require An ID. The Specifics Of This Application Is To Make Sure The Name "Joe" Shows Up As Two Employees. Also, Used A Foreach Loop To Create A New List Of Employees With The Name "Joe" But Using A Lambda Expression Instead.
+
+<h3>Methods Program</h3>
+
+[Methods Assignment](https://github.com/MJ231/The-T.A.-Basic-C-Sharp-Projects/tree/main/Basic_C%23_Programs/MethodOptional)
+
+This Project Consists Of Creating A Class That Creates A Method In Which Takes Two Integers As Parameters. The Program Requires To Make One Of Those Parameters Optional, But Also Have The Method Do A Math Operation And Return An Integer Result. In The Main Method, Instantiate The Class So The User Can Input Two Numbers, One At A Time And Letting Users Know Not To Enter Anything For The Second Number.
+
+<h3>Daily Report For Student</h3>
+
+[Daily Report](https://github.com/MJ231/The-T.A.-Basic-C-Sharp-Projects/tree/main/Basic_C%23_Programs/DailyReportStudents)
+
+This Project Creates A Basic Application Of A Student's Report In The Program Of The Tech Academy. It Asks For Name, Course, Page Number, How Many Hours Of Studying?, Need Help With Any Issues? And So Forth. Once Finished, It Prints Out Directly Into The Console Application.
