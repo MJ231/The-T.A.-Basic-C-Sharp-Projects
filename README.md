@@ -1,5 +1,5 @@
 # The-T.A.-Basic-C-Sharp-Projects
-This Repository Will Contain Different C-Sharp Projects.
+Contains Different C-Sharp Projects Down Below.
 
 <h2>PROJECTS</h2>
 
